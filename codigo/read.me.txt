@@ -1,0 +1,59 @@
+APIS I 
+
+Alunos: Isabelle Araújo
+       Rubens Cardoso
+       Wescley Melo
+
+Documento de requisitos
+
+Descrição do sistema: 
+O sistema tem como principal objetivo disponibilizar o resultado de exames laboratoriais, para que o paciente não precise se deslocar até a unidade de atendimento para receber tal exame. Assim agilizando a entrega dos exames e automatizando processos simples.  
+
+Requisitos funcionais
+
+Usuário final:
+
+Login
+Para ter acesso ao sistema, o usuário deve realizar login, fornecendo e-mail e senha, e depois clicando em ‘entrar’.
+
+Selecionar laboratório
+Após realizar login, o usuário será redirecionado à página inicial do sistema. Logo em seguida o usuário deve selecionar o laboratório em que foi realizado o exame desejado.
+
+Selecionar exame
+Após selecionar o laboratório, deverá aparecer todos os exames realizados por ele naquele local com data de realização,data de entrega prevista, descrição, status (pronto/pendente) e botão para realizar o download do mesmo caso esteja pronto. 
+
+Editar perfil 
+Na tela inicial do sistema, existe um link com nome ‘editar perfil’, onde o usuário pode clicar e editar qualquer informação a seu respeito. Após editar tais informações o usuário deve clicar em salvar, ou caso tenha desistido de fazer alguma alteração, pode optar por cancelar a operação.
+
+Sair
+Na tela inicial do sistema, existe a opção ‘sair’ no canto superior direito para finalizar o acesso ao mesmo, caso o usuário já tenha concluído. 
+
+Administrador:
+
+
+Login
+    Para acessar o sistema, o usuário deve realizar login, fornecendo e-mail e senha, em seguida clicando em ‘entrar’.
+
+Cadastro paciente
+    Na tela inicial do administrador, o mesmo deve clicar em ‘cadastrar pacientes’, e preencher o formulário com nome, sobrenome, data de nascimento, endereço, telefone e e-mail, em seguida clicar em ‘cadastrar’. 
+
+Cadastro exame
+Na tela inicial do administrador, ele clica em ‘cadastrar exames’, e em seguida é direcionado para a página referente, onde deve buscar o paciente já cadastrado pelo nome do mesmo, ou clicar em cadastrar paciente caso ele não tenha realizado o cadastro ainda. o administrador seleciona o paciente e clica em ‘cadastrar exame’, em seguida deve selecionar qual laboratório o exame foi realizado, e então clicar em ‘anexar’ para enviar exame em pdf, e disponibilizar no sistema.
+    
+Gerar relatório
+
+
+
+Sair
+Na tela inicial do sistema, existe a opção ‘sair’ no canto superior direito para finalizar o acesso ao mesmo, caso o administrador já tenha concluído. 
+
+
+Requisitos não funcionais
+
+Interface
+O sistema possui interface simples e direta, atendendo os objetivos.
+
+
+    
+
+
